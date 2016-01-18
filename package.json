@@ -1,0 +1,17 @@
+{
+  "name": "herrlock.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/herrlock/herrlock.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/herrlock/herrlock.github.io/issues"
+  },
+  "homepage": "https://github.com/herrlock/herrlock.github.io",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-serve": "^0.1.6"
+  }
+}
