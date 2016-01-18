@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Hello World</title>
+    <meta charset="UTF-8" />
+    
+<script>
+    // openui5-configuration
+    window["sap-ui-config"] = {
+        "theme" : "sap_bluecrystal",
+        "bindingSyntax" : "complex",
+        "libs" : [
+                "sap.m"
+        ].join(","),
+        resourceRoots: {
+            "pages": "pages"
+        }
+    };
+</script>
+<script id="sap-ui-bootstrap" src="https://openui5.hana.ondemand.com/1.32.9/resources/sap-ui-core.js"></script>
+
+<script>
+    sap.ui.getCore().attachInit(function(){
+        console.group("Core.onInit");
+        // set the whole window busy
+        sap.ui.core.BusyIndicator.show(0);
+        // load MessageBox and MessageToast
+        $.sap.require("sap.m.MessageBox");
+        $.sap.require("sap.m.MessageToast");
+        
+        app = sap.ui.jsfragment("pages.app");
+        $(function() {
+            app.placeAt("content");
+            sap.ui.core.BusyIndicator.hide();
+        });
+        
+        console.log("Core.onInit (end)");
+        console.groupEnd();
+    });
+</script>
+
+</head>
+<body class="sapUiBody">
+    <div id="content" ></div>
+</body>
+</html>
