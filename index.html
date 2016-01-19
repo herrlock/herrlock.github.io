@@ -22,6 +22,8 @@
 <!-- 
 <script id="sap-ui-bootstrap" src="openui5/resources/sap-ui-core.js"></script><!-- -->
 
+<link rel="stylesheet" href="style.css" />
+
 <script>
     sap.ui.getCore().attachInit(function(){
         console.group("Core.onInit");
@@ -42,7 +44,7 @@
         // load data from github-api
         var reposUrl = "https://api.github.com/users/herrlock/repos";
         //reposUrl = "repos.json"; // local file for testing
-        $.get(reposUrl, function(response){
+        $.get(reposUrl, function(response) {
             // sort repositories descending by date
             response.sort((a,b) => new Date(b.pushed_at).getTime() - new Date(a.pushed_at).getTime());
             // set model

@@ -1,0 +1,8 @@
+
+.sapMPageHeader::before {
+    border-top: 0px none black;
+}
+
+.sapMSplitContainerMaster::before {
+    border-right: 0px none black;
+}
