@@ -11,26 +11,17 @@ sap.ui.jsfragment("pages.app", {
             showHeader: false,
             content: new sap.m.List({
                 items: {
-                    path: "items>/",
+                    path: "repos>/",
                     template: new sap.m.StandardListItem({
                         type: sap.m.ListType.Navigation,
-                        icon: "{items>icon}",
-                        title: "{items>title}",
-                        description: "{items>description}",
-                        info: "{items>info}"
+                        icon: "{= ${repos>fork} ? 'sap-icon://duplicate' : 'sap-icon://group' }",
+                        title: "{repos>name}",
+                        description: "{repos>language}",
+                        info: "{= ${repos>pushed_at}.substring(0,10) }"
                     })
                 }
             })
         });
-        masterPage.setModel(new sap.ui.model.json.JSONModel([{
-                title: "title1",
-                description: "description1",
-                info: "info1"
-            }, {
-                title: "title2",
-                description: "description2",
-                info: "info2"
-            }]), "items");
         var page1 = new sap.m.Page("page-page1", {
             content: new sap.m.VBox({
                 items: [
@@ -79,7 +70,6 @@ sap.ui.jsfragment("pages.app", {
             }
         });
         
-        console.log("pages.app > createContent (end)");
         console.groupEnd();
         return app;
     }

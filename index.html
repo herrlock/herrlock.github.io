@@ -17,7 +17,10 @@
         }
     };
 </script>
-<script id="sap-ui-bootstrap" src="https://openui5.hana.ondemand.com/1.32.9/resources/sap-ui-core.js"></script>
+<!-- -->
+<script id="sap-ui-bootstrap" src="https://openui5.hana.ondemand.com/1.32.9/resources/sap-ui-core.js"></script><!-- -->
+<!-- 
+<script id="sap-ui-bootstrap" src="openui5/resources/sap-ui-core.js"></script><!-- -->
 
 <script>
     sap.ui.getCore().attachInit(function(){
@@ -28,13 +31,24 @@
         $.sap.require("sap.m.MessageBox");
         $.sap.require("sap.m.MessageToast");
         
+        // create App-instance
         app = sap.ui.jsfragment("pages.app");
         $(function() {
+            // put the app-object to the div with the id "content"
             app.placeAt("content");
+            // unbusy the window
             sap.ui.core.BusyIndicator.hide();
         });
+        // load data from github-api
+        var reposUrl = "https://api.github.com/users/herrlock/repos";
+        //reposUrl = "repos.json"; // local file for testing
+        $.get(reposUrl, function(response){
+            // sort repositories descending by date
+            response.sort((a,b) => new Date(b.pushed_at).getTime() - new Date(a.pushed_at).getTime());
+            // set model
+            app.setModel(new sap.ui.model.json.JSONModel(response), "repos");
+        });
         
-        console.log("Core.onInit (end)");
         console.groupEnd();
     });
 </script>
