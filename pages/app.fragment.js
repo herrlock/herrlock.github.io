@@ -2,11 +2,10 @@ sap.ui.jsfragment("pages.app", {
     createContent: function(){
         console.group("pages.app > createContent");
         
-        var toPage1Function = function() {
-            app.toDetail("page-page1");
-        }, toPage2Function = function() {
-            app.toDetail("page-page2");
-        };
+        var iframe = new sap.ui.core.HTML("detailIFrame", {
+            content: "<iframe style='height: 100%; width: 100%' frameborder='0' />"
+        });
+        
         var masterPage = new sap.m.Page("page-master", {
             showHeader: false,
             content: new sap.m.List({
@@ -17,50 +16,24 @@ sap.ui.jsfragment("pages.app", {
                         icon: "{= ${repos>fork} ? 'sap-icon://duplicate' : 'sap-icon://group' }",
                         title: "{repos>name}",
                         description: "{repos>language}",
-                        info: "{= ${repos>pushed_at}.substring(0,10) }"
+                        info: "{= ${repos>pushed_at}.substring(0,10) }",
+                        press: function(oEvent) {
+                            var source = oEvent.getSource();
+                            console.log(source.getTitle());
+                            iframe.$().attr("src", "/" + source.getTitle() + "/index.html");
+                        }
                     })
                 }
             })
         });
-        var page1 = new sap.m.Page("page-page1", {
-            content: new sap.m.VBox({
-                items: [
-                    new sap.m.Button({
-                        icon: "sap-icon://employee",
-                        text: "Some Button",
-                        press: toPage2Function
-                    }), new sap.m.Button({
-                        icon: "sap-icon://doctor",
-                        text: "Some other Button",
-                        press: toPage2Function
-                    }) 
-                ]
-            })
-        });
-        var page2 = new sap.m.Page("page-page2", {
-            content: new sap.m.VBox({
-                items: [
-                    new sap.m.Button({
-                        icon: "sap-icon://doctor",
-                        text: "Some Button 2",
-                        press: toPage1Function
-                    }), new sap.m.Button({
-                        icon: "sap-icon://employee",
-                        text: "Some other Button 2",
-                        press: toPage1Function
-                    }) 
-                ]
-            })
+        var detailPage = new sap.m.Page("page-detailPage", {
+            content: iframe
         });
         var app = new sap.m.SplitApp({
             mode: sap.m.SplitAppMode.ShowHideMode,
             backgroundColor: "light grey",
-            masterPages: [
-                masterPage
-            ],
-            detailPages: [
-                page1, page2
-            ],
+            masterPages: masterPage,
+            detailPages: detailPage,
             detailNavigate: function(nav){
                 var params = nav.getParameters();
                 console.group("detailNavigate");
