@@ -6,5 +6,6 @@
 /.project
 /.settings/
 
-# openui5 for testing
+# testing
 /openui5/
+/Manga/
