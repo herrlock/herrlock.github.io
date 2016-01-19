@@ -5,3 +5,6 @@
 # eclipse
 /.project
 /.settings/
+
+# openui5 for testing
+/openui5/
