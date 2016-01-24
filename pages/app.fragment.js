@@ -5,6 +5,9 @@ sap.ui.jsfragment("pages.app", {
         var iframe = new sap.ui.core.HTML("detailIFrame", {
             content: "<iframe style='height: 100%; width: 100%' frameborder='0' />"
         });
+        var detailPage = new sap.m.Page("page-detailPage", {
+            content: iframe
+        });
         
         var masterPage = new sap.m.Page("page-master", {
             showHeader: false,
@@ -19,15 +22,14 @@ sap.ui.jsfragment("pages.app", {
                         info: "{= ${repos>pushed_at}.substring(0,10) }",
                         press: function(oEvent) {
                             var source = oEvent.getSource();
-                            console.log(source.getTitle());
-                            iframe.$().attr("src", "/" + source.getTitle() + "/index.html");
+                            var title = source.getTitle()
+                            console.log(title);
+                            iframe.$().attr("src", "/" + title + "/index.html");
+                            detailPage.setTitle(title);
                         }
                     })
                 }
             })
-        });
-        var detailPage = new sap.m.Page("page-detailPage", {
-            content: iframe
         });
         var app = new sap.m.SplitApp({
             mode: sap.m.SplitAppMode.ShowHideMode,
