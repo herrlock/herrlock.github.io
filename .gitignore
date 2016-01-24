@@ -6,6 +6,11 @@
 /.project
 /.settings/
 
-# testing
+# files for local testing
 /openui5/
 /Manga/
+/herrlock.github.io/
+/MFDParser/
+/Chat/
+/Testing/
+/karma-nyan-reporter/
