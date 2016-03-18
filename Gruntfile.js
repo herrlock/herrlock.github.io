@@ -2,7 +2,9 @@ module.exports = function(grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
         serve: {
-            // using default configuration
+            options: {
+                port: 9000
+            }
         }
     });
     
