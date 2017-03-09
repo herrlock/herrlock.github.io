@@ -21,7 +21,7 @@
 <script id="sap-ui-bootstrap"></script>
 <script>
     (function() {
-        var scriptRoot = location.hostname === "localhost" ? "openui5" : "https://openui5.hana.ondemand.com/1.32.10";
+        var scriptRoot = location.hostname === "localhost" ? "openui5" : "https://openui5.hana.ondemand.com/1.44.8";
         var scriptPath = "/resources/sap-ui-core.js"
         console.log("openui5 url", scriptPath);
         document.querySelector("#sap-ui-bootstrap").src = scriptRoot + scriptPath;
@@ -47,11 +47,17 @@
             
             // create App-instance
             app = sap.ui.jsfragment("pages.app");
+            console.log("app", app);
+            app.attachEventOnce("afterRendering", function() {
+                console.dir([$("#detailIFrame")]);
+                console.dir([$("iframe")]);
+            });
             $(function() {
                 // put the app-object to the div with the id "content"
                 app.placeAt("content");
                 // unbusy the window
                 sap.ui.core.BusyIndicator.hide();
+                
             });
             // load data from github-api
             var reposUrl = location.hostname === "localhost" ? "repos.json" : "https://api.github.com/users/herrlock/repos";
