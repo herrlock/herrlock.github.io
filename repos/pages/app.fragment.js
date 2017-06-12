@@ -3,7 +3,24 @@ sap.ui.jsfragment("pages.app", {
         console.group("pages.app > createContent");
         
         var iframe = new sap.ui.core.HTML("detailIFrame", {
-            content: "<iframe style='height: 100%; width: 100%' frameborder='0' />"
+            content: "<iframe style='height: 100%; width: 100%' frameborder='0' />",
+            afterRendering: function(oEvent) {
+                console.warn("HTML afterRendering");
+                var source = oEvent.getSource();
+                source.$().load(function(){
+                    console.group("load");
+                    
+                    console.log("source", source);
+                    var source$ = source.$();
+                    console.log("source$", source$);
+                    var first = source$[0];
+                    console.log("first", first);
+                    var contentDocument = first.contentDocument;
+                    console.log("contentDocument", contentDocument);
+                    
+                    console.groupEnd();
+                });
+            }
         });
         var detailPage = new sap.m.Page("page-detailPage", {
             content: iframe

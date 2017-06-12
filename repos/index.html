@@ -21,7 +21,7 @@
 <script id="sap-ui-bootstrap"></script>
 <script>
     (function() {
-        var scriptRoot = location.hostname === "localhost" ? "openui5" : "https://openui5.hana.ondemand.com/1.44.8";
+        var scriptRoot = location.hostname === "localhost" ? "/openui5" : "https://openui5.hana.ondemand.com";
         var scriptPath = "/resources/sap-ui-core.js"
         console.log("openui5 url", scriptPath);
         document.querySelector("#sap-ui-bootstrap").src = scriptRoot + scriptPath;
