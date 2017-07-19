@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Base64</title>
+<script>
+    window.herrlock = {
+        encode : function() {
+            b64.value = btoa(plain.value);
+        },
+        decode : function() {
+            plain.value = atob(b64.value);
+        }
+    };
+</script>
+<style>
+textarea {
+	width: 100%;
+}
+</style>
+</head>
+<body>
+	<h2>Base64</h2>
+
+	<div class="textarea-container">
+		<textarea id="plain" rows="10">Hello World</textarea>
+	</div>
+	<div class="button-container">
+		<button type="button" onclick="herrlock.encode()">&#9660; Encode</button>
+		<button type="button" onclick="herrlock.decode()">&#9650; Decode</button>
+	</div>
+	<div class="textarea-container">
+		<textarea id="b64" rows="10"></textarea>
+	</div>
+</body>
+</html>
