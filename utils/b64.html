@@ -10,12 +10,39 @@
         },
         decode : function() {
             plain.value = atob(b64.value);
+        },
+        encodeFile : function(filelist) {
+            herrlock.loadFileContent(filelist, function(reader) {
+                if(reader && reader.target && reader.target.result) {
+                    plain.value = reader.target.result;
+                    herrlock.encode();
+                }
+            });
+        },
+        decodeFile : function(filelist) {
+            herrlock.loadFileContent(filelist, function(reader) {
+                if(reader && reader.target && reader.target.result) {
+                    b64.value = reader.target.result;
+                    herrlock.decode();
+                }
+            });
+        },
+        loadFileContent : function(filelist, callback) {
+            if (filelist && filelist.length > 0) {
+                var reader = new FileReader();
+                reader.onload = callback;
+                reader.readAsText(filelist[0]);
+            }
         }
     };
 </script>
 <style>
 textarea {
 	width: 100%;
+}
+
+span.button-container-span {
+	display: inline-block;
 }
 </style>
 </head>
@@ -26,8 +53,14 @@ textarea {
 		<textarea id="plain" rows="10">Hello World</textarea>
 	</div>
 	<div class="button-container">
-		<button type="button" onclick="herrlock.encode()">&#9660; Encode</button>
-		<button type="button" onclick="herrlock.decode()">&#9650; Decode</button>
+		<span class="button-container-span" style="float: left;">
+			<button type="button" onclick="herrlock.encode()">&#9660; Encode</button>
+			<input type="file" onchange="herrlock.encodeFile(this.files)" />
+		</span>
+		<span class="button-container-span" style="float: right;">
+			<button type="button" onclick="herrlock.decode()">&#9650; Decode</button>
+			<input type="file" onchange="herrlock.decodeFile(this.files)" />
+		</span>
 	</div>
 	<div class="textarea-container">
 		<textarea id="b64" rows="10"></textarea>
