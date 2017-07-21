@@ -4,66 +4,98 @@
 <meta charset="UTF-8" />
 <title>Base64</title>
 <script>
-    window.herrlock = {
-        encode : function() {
-            b64.value = btoa(plain.value);
-        },
-        decode : function() {
-            plain.value = atob(b64.value);
-        },
-        encodeFile : function(filelist) {
-            herrlock.loadFileContent(filelist, function(reader) {
-                if(reader && reader.target && reader.target.result) {
-                    plain.value = reader.target.result;
-                    herrlock.encode();
-                }
-            });
-        },
-        decodeFile : function(filelist) {
-            herrlock.loadFileContent(filelist, function(reader) {
-                if(reader && reader.target && reader.target.result) {
-                    b64.value = reader.target.result;
-                    herrlock.decode();
-                }
-            });
-        },
-        loadFileContent : function(filelist, callback) {
-            if (filelist && filelist.length > 0) {
-                var reader = new FileReader();
-                reader.onload = callback;
-                reader.readAsText(filelist[0]);
-            }
-        }
-    };
+	window.herrlock = {
+		encode : function() {
+			try {
+				b64.value = btoa(plain.value);
+			} catch(e) {
+				herrlock.handleError(e);
+			}
+		},
+		decode : function() {
+			try {
+				plain.value = atob(b64.value);
+			} catch(e) {
+				herrlock.handleError(e);
+			}
+		},
+		handleError : function(e) {
+			alert(e);
+		},
+		encodeFile : function(filelist) {
+			herrlock.loadFileContent(filelist, function(reader) {
+				if (reader && reader.target && reader.target.result) {
+					plain.value = reader.target.result;
+					herrlock.encode();
+				}
+			});
+		},
+		decodeFile : function(filelist) {
+			herrlock.loadFileContent(filelist, function(reader) {
+				if (reader && reader.target && reader.target.result) {
+					b64.value = reader.target.result;
+					herrlock.decode();
+				}
+			});
+		},
+		loadFileContent : function(filelist, callback) {
+			if (filelist && filelist.length > 0) {
+				var reader = new FileReader();
+				reader.onload = callback;
+				reader.readAsText(filelist[0]);
+			}
+		}
+	};
 </script>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+	integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	crossorigin="anonymous">
 <style>
-textarea {
-	width: 100%;
-}
-
-span.button-container-span {
-	display: inline-block;
+[hidden] {
+	display: none !important;
 }
 </style>
 </head>
 <body>
-	<h2>Base64</h2>
+<div class="panel">
+	<div class="panel-body">
 
-	<div class="textarea-container">
-		<textarea id="plain" rows="10">Hello World</textarea>
+		<h2>Base64</h2>
+
+		<div class="textarea-container form-group">
+			<textarea id="plain" class="form-control" rows="10">Hello World</textarea>
+		</div>
+
+		<div class="button-container form-group">
+
+			<span class="button-container-span btn-group">
+				<button type="button" class="btn btn-default" onclick="herrlock.encode()">
+					<span class="badge">&#9660;</span> Encode
+				</button>
+				<label for="file-uploader-encode" class="btn btn-default">
+					Encode file
+					<input type="file" id="file-uploader-encode" class="btn btn-default btn-file"
+						onchange="herrlock.encodeFile(this.files)" hidden />
+				</label>
+			</span>
+
+			<span class="button-container-span btn-group" style="float: right;">
+				<button type="button" class="btn btn-default" onclick="herrlock.decode()">
+					<span class="badge">&#9650;</span> Decode
+				</button>
+				<label for="file-uploader-decode" class="btn btn-default">Decode file
+					<input type="file" id="file-uploader-decode" class="btn btn-default btn-file"
+						onchange="herrlock.decodeFile(this.files)" hidden />
+				</label>
+			</span>
+
+		</div>
+		<div class="textarea-container form-group">
+			<textarea id="b64" class="form-control" rows="10"></textarea>
+		</div>
+
 	</div>
-	<div class="button-container">
-		<span class="button-container-span" style="float: left;">
-			<button type="button" onclick="herrlock.encode()">&#9660; Encode</button>
-			<input type="file" onchange="herrlock.encodeFile(this.files)" />
-		</span>
-		<span class="button-container-span" style="float: right;">
-			<button type="button" onclick="herrlock.decode()">&#9650; Decode</button>
-			<input type="file" onchange="herrlock.decodeFile(this.files)" />
-		</span>
-	</div>
-	<div class="textarea-container">
-		<textarea id="b64" rows="10"></textarea>
-	</div>
+</div>
 </body>
 </html>
