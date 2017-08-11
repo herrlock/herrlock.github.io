@@ -1,0 +1,176 @@
+@import url(http://fonts.googleapis.com/css?family=Uncial+Antiqua);
+@import url(http://dl.dropbox.com/u/78192465/MyAnimeList/Index/TabContent.css);
+@import url(http://dl.dropbox.com/u/78192465/MyAnimeList/Index/TopMenu.css);
+@import url(http://dl.dropbox.com/u/78192465/MyAnimeList/Index/CategoryMenu.css);
+@import url(http://dl.dropbox.com/u/78192465/MyAnimeList/CSS/AnimeBase_more.css);
+
+.hide {
+	visibility: hidden;
+	position: absolute !important;
+	display: block !important;
+	width: 0 !important;
+	height: 0 !important;
+	transition: width .5s ease-in-out, height .5s ease-in-out .5s;
+	-o-transition: width .5s ease-in-out, height .5s ease-in-out .5s;
+	-moz-transition: width .5s ease-in-out, height .5s ease-in-out .5s;
+	-webkit-transition: width .5s ease-in-out, height .5s ease-in-out .5s;
+	border: solid 1px #FFFFFF;
+	background-repeat: no-repeat !important;
+	background-size: 105% 105%;
+	border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	box-shadow:
+		0 0 16px rgba(25, 125, 229, 1),
+ 		inset 0 4px 5px rgba(25, 125, 229, .6),
+		inset 0 1px 0 rgba(25, 125, 229, .6);
+	-moz-box-shadow:
+		0 0 16px rgba(25, 125, 229, 1),
+ 		inset 0 4px 5px rgba(25, 125, 229, .6),
+		inset 0 1px 0 rgba(25, 125, 229, .6);
+ 	 -webkit-box-shadow:
+		0 0 16px rgba(25, 125, 229, 1),
+ 		inset 0 4px 5px rgba(25, 125, 229, .6),
+		inset 0 1px 0 rgba(25, 125, 229, .6);
+	z-index: 15;
+}
+
+:hover +  .hide {
+	visibility: visible !important;
+	width: 130px !important;
+	height: 184px !important;
+}
+
+body {
+        color: #FFFFFF;
+        font-size: 12px;
+        font-family: 'Uncial Antiqua', cursive;
+	background-image: /*url('http://dl.dropbox.com/u/78192465/MyAnimeList/Index/Images/black.png'), */url('http://i1308.photobucket.com/albums/s608/TheHolyPotato/Sakurasou/colorful-pencils-hd-wallpapers_zps672e9481.jpg');
+	background-repeat: /*repeat, */repeat;
+	background-attachment: /*fixed, */fixed;
+	background-size: /*1px 1px, */contain;
+	background-position: /*left top, right */center;
+}
+
+a { text-decoration: none; }
+a.table_headerLink { color: blue; }
+
+/* header banner */
+#list_surround:before { 
+	position: absolute;
+	display: block;
+	margin-left: 0;
+	margin-top: -10px;
+	content: '';
+	width: 700px;
+	height: 58px;
+	border-bottom: dotted 1px #FFFFFF;
+	/*background: url(http://dl.dropbox.com/u/78192465/MyAnimeList/Index/Images/banner.png);*/
+} 
+
+#list_surround {
+	position: relative;
+	width: 700px;
+	left: 100%;
+	margin-left: -764px;
+	margin-top: 512px;
+	margin-bottom: 136px;
+	padding-top: 10px;
+	border: solid 2px #197de5;
+	background-image: url(http://dl.dropbox.com/u/78192465/MyAnimeList/Index/Images/bg.png); 
+	background-attachment: scroll;
+	background-repeat: repeat;
+	background-position: top left;
+}
+
+.animetitle { 
+	display: block; 
+	padding-left: 4px;
+	font-size: 14px;
+	min-width: 0px; 
+	max-width: 460px; 
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.animetitle + small { 
+	visibility: visible !important;
+	position: absolute;
+	display: block;
+	margin-left: 672px;
+	margin-top: -21px;
+	font-size: 10px !important;
+	line-height: 10px !important;
+	padding: 4px;
+	background: rgba(25,  125, 229, 1);
+}
+
+.td1, .td2 {
+	border-bottom: dotted 1px #FFFFFF;
+	line-height: 24px !important;
+}
+
+.td1 a, .td2 a { color: #FFFFFF; }
+
+
+.header_title, .header_cw, .header_completed , .header_onhold, .header_dropped, .header_ptw { display: none; }
+
+.category_totals { 
+	padding: 4px 0;
+	line-height: 18px;
+	text-align: center;
+} 
+
+#copyright {
+	position: relative !important;
+	margin-top: 0 !important;
+	text-align: center !important;
+	padding: 2px;
+	border-top: dotted 1px #FFFFFF;
+}
+
+#copyright a { color: #197de5; }
+
+#copyright a:hover { color: #88dfff; }
+
+#copyright:after { display: block;  content: 'List designed by Hahaido.'; }
+
+#inlineContent {
+	pointer-events: none;
+	position: fixed;
+	display: block !important;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 32px;
+	background-image: 
+		linear-gradient(bottom, rgba(0, 0, 0, .5) 25%, rgba(0, 0, 0, 0) 100%);
+	background-image:  
+		-moz-linear-gradient(bottom, rgba(0, 0, 0, .5) 25%, rgba(0, 0, 0, 0) 100%);
+	background-image: -webkit-gradient(linear, left bottom, left top,
+		color-stop(.25, rgba(0, 0, 0, .5)),
+		color-stop(1, rgba(0, 0, 0, 0)))
+}
+
+
+.animetitle[href$="/Hentai_Ouji_to_Warawanai_Neko."] span:after,
+.animetitle[href$="/Little_Busters!:_Refrain"] span:after,
+.animetitle[href$="/Mononoke_Hime"] span:after,
+.animetitle[href$="/Naruto:_Shippuuden"] span:after,
+.animetitle[href$="/Sakurasou_no_Pet_na_Kanojo"] span:after,
+.animetitle[href$="/Tenkuu_no_Shiro_Laputa"] span:after,
+.animetitle[href$="/Toaru_Majutsu_No_Index"] span:after,
+.animetitle[href$="/Toaru_Kagaku_no_Railgun"] span:after
+
+{
+position: absolute;
+display: block;
+content: 'fav';
+width:24px;
+margin-left: 450px;
+margin-top: -25px;
+padding: 1px 4px 0;
+line-height: 25px;
+background: rgba(16, 147, 98, 1);
+}
