@@ -105,7 +105,7 @@ opacity: 1;
 -webkit-transition: all 0.25s ease-in-out 0s;
 -o-transition: all 0.25s ease-in-out 0s;
 transition: all 0.25s ease-in-out 0s;
-background: url("sakurasou/icon0poweredaimg.png") no-repeat scroll 50% 6px rgba(130, 130, 130, 0.6);
+background: url("icon0poweredaimg.png") no-repeat scroll 50% 6px rgba(130, 130, 130, 0.6);
 border-radius: 3px 3px 3px 3px
 display: block;
 height: 0;
