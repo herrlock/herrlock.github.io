@@ -1,0 +1,802 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+	
+	<!--
+	 Created by XML Export feature at MyAnimeList.net
+	 Programmed by Xinil
+	 Last updated 5/27/2008
+	-->
+	
+	<myanimelist>
+	
+		<myinfo>
+			<user_id>2848035</user_id>
+			<user_name>herrlock</user_name>
+			<user_export_type>2</user_export_type>
+			<user_total_manga>37</user_total_manga>
+			<user_total_reading>14</user_total_reading>
+			<user_total_completed>5</user_total_completed>
+			<user_total_onhold>10</user_total_onhold>
+			<user_total_dropped>0</user_total_dropped>
+			<user_total_plantoread>8</user_total_plantoread>
+		</myinfo>
+	
+	
+				<manga>
+					<manga_mangadb_id>25861</manga_mangadb_id>
+					<manga_title><![CDATA[Aoki Hagane no Arpeggio]]></manga_title>
+					<manga_volumes>0</manga_volumes>
+					<manga_chapters>0</manga_chapters>
+					<my_id>52534358</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>0</my_read_chapters>
+					<my_start_date>0000-00-00</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_status>Plan to Read</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_reread_value></my_reread_value>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>735</manga_mangadb_id>
+					<manga_title><![CDATA[Black Lagoon]]></manga_title>
+					<manga_volumes>0</manga_volumes>
+					<manga_chapters>0</manga_chapters>
+					<my_id>54913206</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>8</my_read_chapters>
+					<my_start_date>0000-00-00</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_status>Reading</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_reread_value></my_reread_value>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>75989</manga_mangadb_id>
+					<manga_title><![CDATA[Boku no Hero Academia]]></manga_title>
+					<manga_volumes>0</manga_volumes>
+					<manga_chapters>0</manga_chapters>
+					<my_id>51616875</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>0</my_read_chapters>
+					<my_start_date>0000-00-00</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_status>Reading</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_reread_value></my_reread_value>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>95210</manga_mangadb_id>
+					<manga_title><![CDATA[Boruto: Naruto Next Generations]]></manga_title>
+					<manga_volumes>0</manga_volumes>
+					<manga_chapters>0</manga_chapters>
+					<my_id>51616862</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>19</my_read_chapters>
+					<my_start_date>0000-00-00</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_status>Reading</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_reread_value></my_reread_value>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>50145</manga_mangadb_id>
+					<manga_title><![CDATA[Citrus]]></manga_title>
+					<manga_volumes>0</manga_volumes>
+					<manga_chapters>0</manga_chapters>
+					<my_id>52534372</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>0</my_read_chapters>
+					<my_start_date>0000-00-00</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_status>Plan to Read</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_reread_value></my_reread_value>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>1061</manga_mangadb_id>
+					<manga_title><![CDATA[Detective Conan]]></manga_title>
+					<manga_volumes>0</manga_volumes>
+					<manga_chapters>0</manga_chapters>
+					<my_id>24555099</my_id>
+					<my_read_volumes>9</my_read_volumes>
+					<my_read_chapters>937</my_read_chapters>
+					<my_start_date>2013-06-23</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_status>Reading</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_reread_value>High</my_reread_value>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>42</manga_mangadb_id>
+					<manga_title><![CDATA[Dragon Ball]]></manga_title>
+					<manga_volumes>42</manga_volumes>
+					<manga_chapters>520</manga_chapters>
+					<my_id>38818423</my_id>
+					<my_read_volumes>42</my_read_volumes>
+					<my_read_chapters>520</my_read_chapters>
+					<my_start_date>0000-00-00</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_status>Completed</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_reread_value></my_reread_value>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>57239</manga_mangadb_id>
+					<manga_title><![CDATA[Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka]]></manga_title>
+					<manga_volumes>0</manga_volumes>
+					<manga_chapters>0</manga_chapters>
+					<my_id>52534377</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>0</my_read_chapters>
+					<my_start_date>0000-00-00</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_status>Plan to Read</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_reread_value></my_reread_value>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>598</manga_mangadb_id>
+					<manga_title><![CDATA[Fairy Tail]]></manga_title>
+					<manga_volumes>63</manga_volumes>
+					<manga_chapters>549</manga_chapters>
+					<my_id>29245467</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>1</my_read_chapters>
+					<my_start_date>2014-01-08</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_status>On-Hold</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_reread_value></my_reread_value>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>318</manga_mangadb_id>
+					<manga_title><![CDATA[Futari Ecchi]]></manga_title>
+					<manga_volumes>0</manga_volumes>
+					<manga_chapters>0</manga_chapters>
+					<my_id>37882525</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>23</my_read_chapters>
+					<my_start_date>0000-00-00</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_status>On-Hold</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_reread_value></my_reread_value>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>564</manga_mangadb_id>
+					<manga_title><![CDATA[Gantz]]></manga_title>
+					<manga_volumes>37</manga_volumes>
+					<manga_chapters>383</manga_chapters>
+					<my_id>52534384</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>0</my_read_chapters>
+					<my_start_date>0000-00-00</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_status>Plan to Read</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_reread_value></my_reread_value>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>41733</manga_mangadb_id>
+					<manga_title><![CDATA[Gate: Jieitai Kanochi nite, Kaku Tatakaeri]]></manga_title>
+					<manga_volumes>0</manga_volumes>
+					<manga_chapters>0</manga_chapters>
+					<my_id>52534391</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>0</my_read_chapters>
+					<my_start_date>0000-00-00</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_status>Plan to Read</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_reread_value></my_reread_value>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>34377</manga_mangadb_id>
+					<manga_title><![CDATA[Gokukoku no Brynhildr]]></manga_title>
+					<manga_volumes>18</manga_volumes>
+					<manga_chapters>181</manga_chapters>
+					<my_id>52534397</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>0</my_read_chapters>
+					<my_start_date>0000-00-00</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_status>Plan to Read</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_reread_value></my_reread_value>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>696</manga_mangadb_id>
+					<manga_title><![CDATA[Hayate no Gotoku!]]></manga_title>
+					<manga_volumes>52</manga_volumes>
+					<manga_chapters>570</manga_chapters>
+					<my_id>44204853</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>1</my_read_chapters>
+					<my_start_date>2016-08-18</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_status>Reading</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_reread_value></my_reread_value>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>17536</manga_mangadb_id>
+					<manga_title><![CDATA[Hidan no Aria]]></manga_title>
+					<manga_volumes>0</manga_volumes>
+					<manga_chapters>0</manga_chapters>
+					<my_id>26411387</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>67</my_read_chapters>
+					<my_start_date>2014-10-07</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_status>Reading</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_reread_value></my_reread_value>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>676</manga_mangadb_id>
+					<manga_title><![CDATA[InuYasha]]></manga_title>
+					<manga_volumes>56</manga_volumes>
+					<manga_chapters>558</manga_chapters>
+					<my_id>27605553</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>83</my_read_chapters>
+					<my_start_date>2013-10-28</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_status>On-Hold</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_reread_value></my_reread_value>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>56505</manga_mangadb_id>
+					<manga_title><![CDATA[Keijo!!!!!!!!]]></manga_title>
+					<manga_volumes>18</manga_volumes>
+					<manga_chapters>177</manga_chapters>
+					<my_id>63042425</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>157</my_read_chapters>
+					<my_start_date>0000-00-00</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_status>Reading</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_reread_value></my_reread_value>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>44155</manga_mangadb_id>
+					<manga_title><![CDATA[Kimi wa Midara na Boku no Joou]]></manga_title>
+					<manga_volumes>2</manga_volumes>
+					<manga_chapters>13</manga_chapters>
+					<my_id>37882433</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>12</my_read_chapters>
+					<my_start_date>2016-02-25</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_status>On-Hold</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_reread_value></my_reread_value>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>3866</manga_mangadb_id>
+					<manga_title><![CDATA[Kuroshitsuji]]></manga_title>
+					<manga_volumes>0</manga_volumes>
+					<manga_chapters>0</manga_chapters>
+					<my_id>52534425</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>0</my_read_chapters>
+					<my_start_date>0000-00-00</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_status>Plan to Read</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_reread_value></my_reread_value>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>13254</manga_mangadb_id>
+					<manga_title><![CDATA[Majimoji Rurumo]]></manga_title>
+					<manga_volumes>7</manga_volumes>
+					<manga_chapters>42</manga_chapters>
+					<my_id>38178771</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>17</my_read_chapters>
+					<my_start_date>0000-00-00</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_status>Reading</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_reread_value></my_reread_value>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>36213</manga_mangadb_id>
+					<manga_title><![CDATA[Monster Musume no Iru Nichijou]]></manga_title>
+					<manga_volumes>0</manga_volumes>
+					<manga_chapters>0</manga_chapters>
+					<my_id>44104193</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>59</my_read_chapters>
+					<my_start_date>2015-06-26</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_status>Reading</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_reread_value></my_reread_value>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>11</manga_mangadb_id>
+					<manga_title><![CDATA[Naruto]]></manga_title>
+					<manga_volumes>72</manga_volumes>
+					<manga_chapters>700</manga_chapters>
+					<my_id>24554997</my_id>
+					<my_read_volumes>10</my_read_volumes>
+					<my_read_chapters>700</my_read_chapters>
+					<my_start_date>0000-00-00</my_start_date>
+					<my_finish_date>2014-11-06</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_status>Completed</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_reread_value>Very High</my_reread_value>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>97372</manga_mangadb_id>
+					<manga_title><![CDATA[Naruto Gaiden: Michita Tsuki ga Terasu Michi]]></manga_title>
+					<manga_volumes>0</manga_volumes>
+					<manga_chapters>1</manga_chapters>
+					<my_id>50260388</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>1</my_read_chapters>
+					<my_start_date>0000-00-00</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_status>Completed</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_reread_value></my_reread_value>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>87866</manga_mangadb_id>
+					<manga_title><![CDATA[Naruto Gaiden: Nanadaime Hokage to Akairo no Hanatsuzuki]]></manga_title>
+					<manga_volumes>1</manga_volumes>
+					<manga_chapters>10</manga_chapters>
+					<my_id>42776851</my_id>
+					<my_read_volumes>1</my_read_volumes>
+					<my_read_chapters>10</my_read_chapters>
+					<my_start_date>2015-04-23</my_start_date>
+					<my_finish_date>2015-07-02</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_status>Completed</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_reread_value></my_reread_value>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>698</manga_mangadb_id>
+					<manga_title><![CDATA[Neon Genesis Evangelion]]></manga_title>
+					<manga_volumes>14</manga_volumes>
+					<manga_chapters>97</manga_chapters>
+					<my_id>26383729</my_id>
+					<my_read_volumes>7</my_read_volumes>
+					<my_read_chapters>48</my_read_chapters>
+					<my_start_date>2013-09-11</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_status>On-Hold</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_reread_value></my_reread_value>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>49967</manga_mangadb_id>
+					<manga_title><![CDATA[Okusama ga Seitokaichou!]]></manga_title>
+					<manga_volumes>0</manga_volumes>
+					<manga_chapters>0</manga_chapters>
+					<my_id>52534432</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>28</my_read_chapters>
+					<my_start_date>2017-10-10</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_status>Reading</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_reread_value></my_reread_value>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>13</manga_mangadb_id>
+					<manga_title><![CDATA[One Piece]]></manga_title>
+					<manga_volumes>0</manga_volumes>
+					<manga_chapters>0</manga_chapters>
+					<my_id>29245473</my_id>
+					<my_read_volumes>70</my_read_volumes>
+					<my_read_chapters>833</my_read_chapters>
+					<my_start_date>2013-12-31</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_status>Reading</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_reread_value></my_reread_value>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>25297</manga_mangadb_id>
+					<manga_title><![CDATA[Prison School]]></manga_title>
+					<manga_volumes>28</manga_volumes>
+					<manga_chapters>278</manga_chapters>
+					<my_id>52534414</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>8</my_read_chapters>
+					<my_start_date>2016-09-06</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_status>Reading</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_reread_value></my_reread_value>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>28107</manga_mangadb_id>
+					<manga_title><![CDATA[Sakurasou no Pet na Kanojo]]></manga_title>
+					<manga_volumes>8</manga_volumes>
+					<manga_chapters>49</manga_chapters>
+					<my_id>24555039</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>11</my_read_chapters>
+					<my_start_date>2014-10-07</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_status>Reading</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_reread_value></my_reread_value>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>18597</manga_mangadb_id>
+					<manga_title><![CDATA[Sankarea]]></manga_title>
+					<manga_volumes>11</manga_volumes>
+					<manga_chapters>59</manga_chapters>
+					<my_id>47190350</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>56</my_read_chapters>
+					<my_start_date>0000-00-00</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_status>On-Hold</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_reread_value></my_reread_value>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>49661</manga_mangadb_id>
+					<manga_title><![CDATA[SE]]></manga_title>
+					<manga_volumes>4</manga_volumes>
+					<manga_chapters>37</manga_chapters>
+					<my_id>53996938</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>35</my_read_chapters>
+					<my_start_date>2016-10-24</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_status>On-Hold</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_reread_value></my_reread_value>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>67315</manga_mangadb_id>
+					<manga_title><![CDATA[Shiroi Majo]]></manga_title>
+					<manga_volumes>1</manga_volumes>
+					<manga_chapters>6</manga_chapters>
+					<my_id>54754060</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>0</my_read_chapters>
+					<my_start_date>0000-00-00</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_status>Completed</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_reread_value></my_reread_value>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>45757</manga_mangadb_id>
+					<manga_title><![CDATA[Shokugeki no Souma]]></manga_title>
+					<manga_volumes>0</manga_volumes>
+					<manga_chapters>0</manga_chapters>
+					<my_id>52534438</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>244</my_read_chapters>
+					<my_start_date>0000-00-00</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_status>Reading</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_reread_value></my_reread_value>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>7776</manga_mangadb_id>
+					<manga_title><![CDATA[Toaru Majutsu no Index Gaiden: Toaru Kagaku no Railgun]]></manga_title>
+					<manga_volumes>0</manga_volumes>
+					<manga_chapters>0</manga_chapters>
+					<my_id>25079661</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>36</my_read_chapters>
+					<my_start_date>2013-07-28</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_status>On-Hold</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_reread_value></my_reread_value>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>77273</manga_mangadb_id>
+					<manga_title><![CDATA[Uchiha Sasuke no Sharingan Den]]></manga_title>
+					<manga_volumes>3</manga_volumes>
+					<manga_chapters>26</manga_chapters>
+					<my_id>36861667</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>0</my_read_chapters>
+					<my_start_date>0000-00-00</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_status>Plan to Read</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_reread_value></my_reread_value>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>35003</manga_mangadb_id>
+					<manga_title><![CDATA[Yamada-kun to 7-nin no Majo]]></manga_title>
+					<manga_volumes>28</manga_volumes>
+					<manga_chapters>246</manga_chapters>
+					<my_id>26783765</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>243</my_read_chapters>
+					<my_start_date>2013-09-26</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>9</my_score>
+					<my_storage></my_storage>
+					<my_status>On-Hold</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_reread_value></my_reread_value>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>1143</manga_mangadb_id>
+					<manga_title><![CDATA[Yuria 100 Shiki]]></manga_title>
+					<manga_volumes>12</manga_volumes>
+					<manga_chapters>105</manga_chapters>
+					<my_id>50061495</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>101</my_read_chapters>
+					<my_start_date>2016-04-27</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_status>On-Hold</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_reread_value></my_reread_value>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+		</myanimelist>
+		
